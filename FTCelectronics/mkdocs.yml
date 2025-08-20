@@ -1,16 +1,18 @@
-site_name: FTC Electronics Documentation
+site_name: FTC Electronics 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: black
   features:
-    - navigation.tabs
-    - navigation.top
-    - navigation.sections
-    - navigation.instant
-    - navigation.expand
+    - navigation.sidebar
+
 nav:
   - Home: index.md 
-  - Getting Started: getting_started.md
-  - Hardware:
-      - Motors: motors.md
-      - Sensors: sensors.md
-      - Controllers: controllers.md
+  - Introduction: introduction.md
+  - Wiring: wiring.md
+  - Sensors: sensors.md
+  - PCB's: pcbs.md
+  - About: about.md
+extra:
+  generator: false
