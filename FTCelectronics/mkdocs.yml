@@ -1,6 +1,6 @@
 site_name: FTC Electronics Documentation
 theme:
-  name: markdown
+  name: material
   features:
     - navigation.tabs
     - navigation.top
