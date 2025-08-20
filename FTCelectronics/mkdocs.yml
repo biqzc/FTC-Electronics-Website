@@ -1,0 +1,16 @@
+site_name: FTC Electronics Documentation
+theme:
+  name: markdown
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.instant
+    - navigation.expand
+nav:
+  - Home: index.md 
+  - Getting Started: getting_started.md
+  - Hardware:
+      - Motors: motors.md
+      - Sensors: sensors.md
+      - Controllers: controllers.md
