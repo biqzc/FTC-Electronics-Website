@@ -21,12 +21,6 @@ nav:
   - About: about.md
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link:
 plugins:
-  - search
-
-  - mkdocs-material
-  - mkdocs-awesome-pages-plugin   
-  - mkdocs-material-extensions    
+      - search:
+          enabled: false
