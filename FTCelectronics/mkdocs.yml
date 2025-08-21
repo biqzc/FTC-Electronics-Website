@@ -1,18 +1,32 @@
 site_name: FTC Electronics 
 theme:
   name: material
+  logo: assets/
   palette:
     scheme: slate
     primary: black
   features:
-    - navigation.sidebar
-
+    - navigation.indexes
+    - navigation.sarch false
 nav:
   - Home: index.md 
-  - Introduction: introduction.md
-  - Wiring: wiring.md
+  - Wiring: 
+    - wiring/index.md
+    - wiring/routing.md
+    - wiring/protection.md
+    - wiring/moving.md
+    - wiring/custom.md
   - Sensors: sensors.md
-  - PCB's: pcbs.md
+  - PCBs: pcbs.md
   - About: about.md
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link:
+plugins:
+  - search
+
+  - mkdocs-material
+  - mkdocs-awesome-pages-plugin   
+  - mkdocs-material-extensions    
