@@ -1,7 +1,8 @@
 site_name: FTC Electronics 
 theme:
   name: material
-  logo: assets/
+  logo: assets/logo.webp
+  favicon: assets/logo.webp
   palette:
     scheme: slate
     primary: black
